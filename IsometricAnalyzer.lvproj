@@ -11,6 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="ExampleFiles" Type="Folder" URL="../ExampleFiles">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -147,7 +150,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{23985AEF-4A7F-4D7A-902A-DE789884CEED}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Builds/IsometricAnalyzer_Main_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Isometric Analyzer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Isometric Analyzer.exe</Property>
@@ -158,7 +161,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Builds/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E48DEC01-362E-4702-A525-DE04EB8236F2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{996E83EB-FE81-40D9-B4B1-78823E6D9923}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
