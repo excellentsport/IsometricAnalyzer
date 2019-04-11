@@ -1,6 +1,8 @@
 # IsometricAnalyzer
 
-A Labview program to analyze isometric squat and isometric mid thigh pull files from a force plate. Currently able to import and parse csv files with comma or tab separation.
+NOTE: THIS PROJECT IS IN ALPHA STATUS. CODE HAS NOT BEEN TESTED FOR STABILITY, ACCURACY, OR OTHERWISE. UNLESS YOU ARE FAMILIAR WITH LABVIEW, I STRONGLY RECOMMEND SAVING THIS LINK AND CHECKING BACK IN A FEW WEEKS/MONTHS.
+
+A Labview program to analyze isometric squat and isometric mid thigh pull files from a force plate. Currently able to import and parse csv files with comma or tab separation. 
 
 ## Getting Started
 
