@@ -139,7 +139,6 @@
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{365213A0-D029-4FA9-BC99-2D61C966729B}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">Initial Beta Build</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -148,10 +147,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{23985AEF-4A7F-4D7A-902A-DE789884CEED}</Property>
-				<Property Name="Bld_userLogFile" Type="Path">../Builds/IsometricAnalyzer_Main_log.txt</Property>
-				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Isometric Analyzer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Isometric Analyzer.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -160,7 +158,10 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Builds/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Destination[2].destName" Type="Str">Example Files</Property>
+				<Property Name="Destination[2].path" Type="Path">../Builds/Examples</Property>
+				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].itemID" Type="Str">{996E83EB-FE81-40D9-B4B1-78823E6D9923}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -171,7 +172,14 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ExampleFiles</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">George Beckham</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">A program to analyze isometric squats and mid thigh pulls. Written by George Beckham, PhD.</Property>
 				<Property Name="TgtF_internalName" Type="Str">Isometric Analyzer</Property>
