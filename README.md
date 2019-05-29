@@ -14,9 +14,25 @@ The folder "Builds" contains the "Isometric Analyzer.exe" and all of the primary
 
 ## How to use
 
-More detailed instructions to come. 
-
-For now, start the program by clicking the "start" arrow in the upper left corner of the program, then selecting a file you wish to analyze. Start with the files contained in the "Examples" folder.
+1. Start the program by clicking the right arrow in the upper left corner.
+2. Select a file to analyze (I recommend using one of the ones included in the "Examples" folder, or making copies of real force plate outputs and analyzing those.)
+3. Enter relevant data about your subject.
+4. On the primary "Force Time Trace" graph:
+	- Drag the yellow bar to approximately 1 second before the start of the pull
+	- Drag the green bar to slightly before the pull
+	- Drag the red bar to after the pull, where the force value is lower than the starting value (just eyeball it, or verify on the "Intracursor Segment" graph on the "intra-cursor" tab that the pull force trace comes back down the the green horizontal line. There will also be a green cursor on this graph to let you know it has ID'd the final value.
+5. Figure out the standing weight segment
+	- Click over to the "SW Segment" tab
+	- Drag around the yellow cursor a bit - this analyzes a 1000ms (can be changed on the parameters tab) segment immediately following the yellow cursor to determine the standing weight. Try to keep this as close to the start of the pull as you can, but also play around with moving it back a bit to find a segment with as low a "SW Segment Range" that you can. If you have a segment that is too variable, the red light will turn on. 
+	- Leave the cursor there when done
+6. Check out the "Pull Start ID" tab to verify that the pull start is correctly identified.
+	- If not, verify that you have cursors correctly placed, and that the red button on the SW Segment tab isn't lit.
+	- If yes, move on
+7. Verify that all your entered data on the "Data Entry and Saving" tab is good.
+8. If you don't have a file to save all of this in yet, click the "Create Blank Save file"
+9. If you already have a file to save these in (i.e. you already created a save file using this program previously, then closed the entire program out), then click "Choose New Save Target" to select this file.
+10. Hit Save results.
+11. Hit the stop button, then click the start button again to restart the process. The program will save your previously selected save target if you don't close the program.
 
 
 ### Prerequisites
