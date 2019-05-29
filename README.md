@@ -27,12 +27,12 @@ The folder "Builds" contains the "Isometric Analyzer.exe" and all of the primary
 	- Leave the cursor there when done
 6. Check out the "Pull Start ID" tab to verify that the pull start is correctly identified.
 	- If not, verify that you have cursors correctly placed, and that the red button on the SW Segment tab isn't lit.
-	- If yes, move on
+	- If yes, move on.
 7. Verify that all your entered data on the "Data Entry and Saving" tab is good.
-8. If you don't have a file to save all of this in yet, click the "Create Blank Save file"
-9. If you already have a file to save these in (i.e. you already created a save file using this program previously, then closed the entire program out), then click "Choose New Save Target" to select this file.
-10. Hit Save results.
-11. Hit the stop button, then click the start button again to restart the process. The program will save your previously selected save target if you don't close the program.
+8. Analyzed data from multiple trials and subjects can be saved into a single file. If you don't have a file to save all of this in yet, click the "Create Blank Save file"
+9. If you already have a file to save data in (i.e. you already created a save file using this program previously), then click "Choose New Save Target" to select this file. This will be pre-populated if you have already analyzed another file this session.
+10. Hit "Save results" to save all of the analyzed data to the save target you chose in the previous step.
+11. Hit the "Stop" button in the top left to end the program. You must click "Save Results" before moving on or your data will be lost. Click the right arrow in the top left to restart the process. 
 
 ## How the start thresholds work
 
