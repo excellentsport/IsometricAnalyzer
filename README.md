@@ -1,8 +1,8 @@
 # IsometricAnalyzer
 
-NOTE: THIS PROJECT IS IN ALPHA STATUS. CODE HAS NOT BEEN TESTED FOR STABILITY, ACCURACY, OR OTHERWISE. UNLESS YOU ARE FAMILIAR WITH LABVIEW, I STRONGLY RECOMMEND SAVING THIS LINK AND CHECKING BACK IN A FEW WEEKS/MONTHS.
+NOTE: THIS PROJECT IS IN BETA STATUS. CODE HAS NOT BEEN EXTENSIVELY TESTED FOR STABILITY, ACCURACY, OR OTHERWISE. 
 
-A Labview program to analyze isometric squat and isometric mid thigh pull files from a force plate. Currently able to import and parse csv files with comma or tab separation. 
+A Labview program to analyze isometric squat and isometric mid thigh pull files from a force plate. Currently able to import and parse csv files with comma or tab separation that were collected at 1000Hz sampling rate. 
 
 ## Getting Started
 
@@ -11,6 +11,12 @@ The primary parent folder contains the source code for the main Labview Project 
 
 **If you don't have Labview 2016 installed:**  
 The folder "Builds" contains the "Isometric Analyzer.exe" and all of the primary dependencies for running said executable, with the exception of Labview Runtime 2016. You will need to first download and install Labview Runtime 2016 to be able to run the executable. It can be found here: http://www.ni.com/download/labview-run-time-engine-2016/6066/en/
+
+### Prerequisites
+
+Labview 2016 or newer to view the source.
+Labview 2016 run time libraries to run the executable (http://www.ni.com/download/labview-run-time-engine-2016/6066/en/)
+
 
 ## How to use
 
@@ -34,15 +40,9 @@ The folder "Builds" contains the "Isometric Analyzer.exe" and all of the primary
 10. Hit "Save results" to save all of the analyzed data to the save target you chose in the previous step.
 11. Hit the "Stop" button in the top left to end the program. You must click "Save Results" before moving on or your data will be lost. Click the right arrow in the top left to restart the process. 
 
-## How the start thresholds work
+### How the start thresholds work
 
 There are a few different ways that you can automatically detect the "onset of contraction". All methods (save manual identification), use a threshold value to identify the start. Basically, as soon as the force value on the trace rises above the standing weight value (i.e. standing weight + threshold value), that causes the rest of the calculations to start at that identified sample. If you wish to use manual identification, choose the "Manual Identification" option, and the start of the pull will be "forced" to start at the position of the green cursor.
-
-
-### Prerequisites
-
-Labview 2016 or newer to view the source.
-Labview 2016 run time libraries to run the executable (http://www.ni.com/download/labview-run-time-engine-2016/6066/en/)
 
 ## Authors
 
