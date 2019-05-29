@@ -23,7 +23,7 @@ The folder "Builds" contains the "Isometric Analyzer.exe" and all of the primary
 	- Drag the red bar to after the pull, where the force value is lower than the starting value (just eyeball it, or verify on the "Intracursor Segment" graph on the "intra-cursor" tab that the pull force trace comes back down the the green horizontal line. There will also be a green cursor on this graph to let you know it has ID'd the final value.
 5. Figure out the standing weight segment
 	- Click over to the "SW Segment" tab
-	- Drag around the yellow cursor a bit - this analyzes a 1000ms (can be changed on the parameters tab) segment immediately following the yellow cursor to determine the standing weight. Try to keep this as close to the start of the pull as you can, but also play around with moving it back a bit to find a segment with as low a "SW Segment Range" that you can. If you have a segment that is too variable, the red light will turn on. 
+	- Drag around the yellow cursor a bit - this analyzes a 1000ms (can be changed on the parameters tab) segment immediately following the yellow cursor to determine the standing weight. Try to keep this as close to the start of the pull as you can, but also play around with moving it back a bit to find a segment with as low a "SW Segment Range" that you can (don't go farther than about 2 seconds behind the start of the pull). If you have a segment that is too variable, the red light will turn on. 
 	- Leave the cursor there when done
 6. Check out the "Pull Start ID" tab to verify that the pull start is correctly identified.
 	- If not, verify that you have cursors correctly placed, and that the red button on the SW Segment tab isn't lit.
