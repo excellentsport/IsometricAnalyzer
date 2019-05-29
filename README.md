@@ -34,11 +34,15 @@ The folder "Builds" contains the "Isometric Analyzer.exe" and all of the primary
 10. Hit Save results.
 11. Hit the stop button, then click the start button again to restart the process. The program will save your previously selected save target if you don't close the program.
 
+## How the start thresholds work
+
+There are a few different ways that you can automatically detect the "onset of contraction". All methods (save manual identification), use a threshold value to identify the start. Basically, as soon as the force value on the trace rises above the standing weight value (i.e. standing weight + threshold value), that causes the rest of the calculations to start at that identified sample. If you wish to use manual identification, choose the "Manual Identification" option, and the start of the pull will be "forced" to start at the position of the green cursor.
+
 
 ### Prerequisites
 
 Labview 2016 or newer to view the source.
-Labview 2016 run time libraries to use the executable (http://www.ni.com/download/labview-run-time-engine-2016/6066/en/)
+Labview 2016 run time libraries to run the executable (http://www.ni.com/download/labview-run-time-engine-2016/6066/en/)
 
 ## Authors
 
