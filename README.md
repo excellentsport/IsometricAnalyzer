@@ -40,4 +40,4 @@ There are a few different ways that you can automatically detect the "onset of c
 
 ## Authors
 
-* **George Beckham, PhD**  - [ExcellentSport](https://github.com/ExcellentSport)
+* **George Beckham, PhD**  - [GitHub](https://github.com/ExcellentSport) [Website](https://www.georgebeckham.com)
