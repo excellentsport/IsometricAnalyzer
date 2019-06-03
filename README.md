@@ -10,7 +10,7 @@ A Labview program to analyze isometric squat and isometric mid thigh pull files 
 The primary parent folder contains the source code for the main Labview Project and Primary VI "Main.vi". If you're interested in seeing the source, you can fork/pull/download the entire repository to view/use/edit. You will need a full version of Labview 2016 or newer to use.
 
 **If you don't have Labview 2016 installed:**  
-You will need to first download and install Labview Runtime 2016 to be able to run the executable. It can be found here: http://www.ni.com/download/labview-run-time-engine-2016/6066/en/ Next, download the Zip file in the latest release that is not entitled "Source Code". Extract all files to a folder somewhere, then doubleclick "Isometric Analyzer.exe" to start the program.
+You will need to first download and install Labview Runtime 2016 to be able to run the executable. It can be found here: http://www.ni.com/download/labview-run-time-engine-2016/6066/en/ Next, head to the [Releases Page](https://github.com/excellentsport/IsometricAnalyzer/releases), scroll to whatever the latest release is, click "Assets", then download the Zip file in the latest release that is not entitled "Source Code". Extract all files to a folder somewhere, then doubleclick "Isometric Analyzer.exe" to start the program.
 
 ## How to use
 
