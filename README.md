@@ -38,6 +38,9 @@ The folder "Builds" contains the "Isometric Analyzer.exe" and all of the primary
 
 There are a few different ways that you can automatically detect the "onset of contraction". All methods (save manual identification), use a threshold value to identify the start. Basically, as soon as the force value on the trace rises above the standing weight value (i.e. standing weight + threshold value), that causes the rest of the calculations to start at that identified sample. If you wish to use manual identification, choose the "Manual Identification" option, and the start of the pull will be "forced" to start at the position of the green cursor.
 
+## How standing weight is calculated
+
+The "Standing Weight" cursor defines the starting point for the samples that are used for estimating standing weight. From the cursor, the next 1000 samples are averaged to estimate standing weight. The length of the sample period can be modified from the "Parameter Adjustment" tab.
 
 ### Prerequisites
 
