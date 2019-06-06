@@ -34,8 +34,13 @@ You will need to first download and install Labview Runtime 2016 to be able to r
 10. Hit "Save results" to save all of the analyzed data to the save target you chose in the previous step.
 11. Hit the "Stop" button in the top left to end the program. You must click "Save Results" before moving on or your data will be lost. Click the right arrow in the top left to restart the process. 
 
+## How the Auto-Detection Thresholds Work
 
 There are a few different ways that you can automatically detect the "onset of contraction". All methods (save manual identification), use a threshold value to identify the start. Basically, as soon as the force value on the trace rises above the standing weight value (i.e. standing weight + threshold value), that causes the rest of the calculations to start at that identified sample. If you wish to use manual identification, choose the "Manual Identification" option, and the start of the pull will be "forced" to start at the position of the green cursor.
+
+## How standing weight is calculated
+
+The "Standing Weight" cursor defines the starting point for the samples that are used for estimating standing weight. From the cursor, the next 1000 samples are averaged to estimate standing weight. The length of the sample period can be modified from the "Parameter Adjustment" tab.
 
 ## Authors
 
