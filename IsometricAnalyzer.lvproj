@@ -148,25 +148,25 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Builds</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/Isometric Analyzer [VersionNumber]</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{23985AEF-4A7F-4D7A-902A-DE789884CEED}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Isometric Analyzer.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Builds/Isometric Analyzer.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Builds/Isometric Analyzer [VersionNumber]/Isometric Analyzer.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Builds/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds/Isometric Analyzer [VersionNumber]/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].destName" Type="Str">Example Files</Property>
-				<Property Name="Destination[2].path" Type="Path">../Builds/Examples</Property>
+				<Property Name="Destination[2].path" Type="Path">../Builds/Isometric Analyzer [VersionNumber]/Examples</Property>
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{47948348-CC98-4971-9611-3D5CFEBE3445}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E250302D-E9FB-473E-A91B-CD1CDDB405D8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
