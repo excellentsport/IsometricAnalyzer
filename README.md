@@ -32,7 +32,7 @@ You will need to first download and install Labview Runtime 2016 to be able to r
 8. Analyzed data from multiple trials and subjects can be saved into a single file. If you don't have a file to save all of this in yet, click the "Create Blank Save file"
 9. If you already have a file to save data in (i.e. you already created a save file using this program previously), then click "Choose New Save Target" to select this file. This will be pre-populated if you have already analyzed another file this session.
 10. Hit "Save results" to save all of the analyzed data to the save target you chose in the previous step.
-11. Hit the "Stop" button in the top left to end the program. You must click "Save Results" before moving on or your data will be lost. Click the right arrow in the top left to restart the process. 
+11. Hit the "load new file to analyze" button to select your next isometric trial to analyze, then head to step 3.
 
 ## How the Auto-Detection Thresholds Work
 
