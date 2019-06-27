@@ -49,8 +49,13 @@ The "Standing Weight" cursor defines the starting point for the samples that are
 The following instructions outline the basics of what you need to do in an isometric squat or isometric mid thigh pull for this program to analyze it correctly.
 - Have the subject get into the correct body position, with minimal pre-tension. 
 - The subject must stand in position for a period of a minimum of 1 second prior to initiating the trial (i.e. the contraction) so that there is a period from which standing weight can be calculated (note that 2-3 seconds is probably ideal). They should stay perfectly still during this period.
-- From the standing weight period until the contraction, they should be stable (i.e. no swaying, repositioning, or any "dip"). Redo the trial if they do any of these things.
+- From the standing weight period until the contraction, they should be stable (i.e. no swaying, repositioning, or any "dip"). You will be able to see these motions on the force-time trace. Redo the trial if they do any of these things.
 - Subject should pull as "fast and as hard as possible" for 5-6 seconds, after which they should relax.
+
+I strongly recommend you check out the review we did in 2019 on the optimal methods for using the isometric mid thigh pull. The recommendations we laid out in there can also be applied to the isometric squat, in my opinion.  
+
+[Comfort et al. (2019) Standardization and Methodological Considerations for the Isometric Midthigh Pull](https://journals.lww.com/nsca-scj/Citation/2019/04000/Standardization_and_Methodological_Considerations.10.aspx).
+
 
 ## Authors
 
