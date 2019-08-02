@@ -128,6 +128,7 @@
 			</Item>
 			<Item Name="Calculate Basic Statistics on Segment.vi" Type="VI" URL="../SubVIs/Calculate Basic Statistics on Segment.vi"/>
 			<Item Name="Convert Bertec CSV into dynamic data type  iso.vi" Type="VI" URL="../SubVIs/Convert Bertec CSV into dynamic data type  iso.vi"/>
+			<Item Name="Find window with lowest SD.vi" Type="VI" URL="../SubVIs/Find window with lowest SD.vi"/>
 			<Item Name="Force Analysis iso.vi" Type="VI" URL="../SubVIs/Force Analysis iso.vi"/>
 			<Item Name="Get Application Build Version.vi" Type="VI" URL="../SubVIs/Get Application Build Version.vi"/>
 			<Item Name="Get X Position of Cursors.vi" Type="VI" URL="../../Scrum Machine/SubVIs/Get X Position of Cursors.vi"/>
