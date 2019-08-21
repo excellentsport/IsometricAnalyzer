@@ -169,7 +169,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Builds/Isometric Analyzer [VersionNumber]/Examples</Property>
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7DE86F6E-045E-4080-B6EB-B7B4C63F846D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E291943B-E0D9-428C-8D3F-B0F0BA766380}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
