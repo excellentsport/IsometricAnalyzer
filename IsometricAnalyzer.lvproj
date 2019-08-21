@@ -154,9 +154,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{23985AEF-4A7F-4D7A-902A-DE789884CEED}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
-				<Property Name="Bld_version.minor" Type="Int">3</Property>
-				<Property Name="Bld_version.patch" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.minor" Type="Int">4</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Isometric Analyzer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Isometric Analyzer [VersionNumber]/Isometric Analyzer.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -169,7 +169,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Builds/Isometric Analyzer [VersionNumber]/Examples</Property>
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7A285594-508E-4DCD-BBA3-486FE748C122}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7DE86F6E-045E-4080-B6EB-B7B4C63F846D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
