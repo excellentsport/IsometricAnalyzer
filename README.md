@@ -4,6 +4,8 @@ NOTE: THIS PROJECT IS IN BETA STATUS. CODE HAS NOT BEEN EXTENSIVELY TESTED FOR S
 
 A Labview program to analyze isometric squat and isometric mid thigh pull files from a force plate. Currently able to import and parse csv files with comma or tab separation that were collected at 1000Hz sampling rate. 
 
+![Screenshot of main screen](/Screenshots/WholeProgram.png) 
+
 ## Getting Started
 
 **If you have Labview 2016 or newer installed:**  
@@ -17,12 +19,13 @@ You will need to first download and install Labview Runtime 2016 to be able to r
 1. Start the program by clicking the right arrow in the upper left corner.
 2. Select a file to analyze (I recommend starting with one of the ones included in the "Examples" folder if you haven't used it before).
 3. Enter relevant data about your subject in the pop-up window, then hit "OK".
+![User input Popup](/Screenshots/UserPrompt.png)
 4. Change any default analysis options if you need to (default is 1000ms period to determine standing weight, 5SD of standing weight as contraction onset threshold).
 5. On the primary "Force-Time Trace" graph:
 	- Drag the yellow cursor to just before the quiet standing period. This will search for a period after this cursor that has the lowest variability, and will use this period for the standing weight and SD value for contraction onset ID.
 	- Drag the green bar to slightly before the onset of the contraction.
 	- Drag the red bar to a point after the contraction where the force value is lower than the starting value. 
-![Screenshot of main screen](/Screenshots/WholeProgram.png)
+ ![Primary Graph Image](/Screenshots/PrimaryGraph.png)  
 6. Figure out the standing weight segment
 	- Click over to the "SW Segment" tab
 	- The yellow cursor on this graph is the start of the SW segment that has the lowest variability. Eyeball it to verify it accurately represents a quiet standing period
