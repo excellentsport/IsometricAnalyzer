@@ -22,6 +22,7 @@ You will need to first download and install Labview Runtime 2016 to be able to r
 	- Drag the yellow cursor to just before the quiet standing period. This will search for a period after this cursor that has the lowest variability, and will use this period for the standing weight and SD value for contraction onset ID.
 	- Drag the green bar to slightly before the onset of the contraction.
 	- Drag the red bar to a point after the contraction where the force value is lower than the starting value. 
+![Screenshot of main screen](https://github.com/excellentsport/IsometricAnalyzer/blob/master/Screenshots/PrimaryGraph.png)
 6. Figure out the standing weight segment
 	- Click over to the "SW Segment" tab
 	- The yellow cursor on this graph is the start of the SW segment that has the lowest variability. Eyeball it to verify it accurately represents a quiet standing period
