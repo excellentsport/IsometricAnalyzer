@@ -8,11 +8,11 @@ A Labview program to analyze isometric squat and isometric mid thigh pull files 
 
 ## Getting Started
 
-**If you have Labview 2016 or newer installed:**  
-The primary parent folder contains the source code for the main Labview Project and Primary VI "Main.vi". If you're interested in seeing the source, you can fork/pull/download the entire repository to view/use/edit. You will need a full version of Labview 2016 or newer to use.
-
 **If you don't have Labview 2016 installed or don't want to mess with all of the labview files:**  
-You will need to first download and install Labview Runtime 2016 to be able to run the executable. It can be found here: http://www.ni.com/download/labview-run-time-engine-2016/6066/en/ Next, head to the [Releases Page](https://github.com/excellentsport/IsometricAnalyzer/releases), scroll to whatever the latest release is, click "Assets", then download the Zip file in the latest release that is NOT entitled "Source Code". Extract all files to a folder somewhere, then double click "Isometric Analyzer.exe" to start the program.
+You will need to first download and install Labview Runtime 2016 to be able to run the executable. It can be found here: http://www.ni.com/download/labview-run-time-engine-2016/6066/en/ Once you have the LabVIEW Runtime library installed, the most recent version of the Isometric Analyzer program can be downloaded from the [Releases Page](https://github.com/excellentsport/IsometricAnalyzer/releases). Scroll to the latest release, click the "Assets" collapsible menu if the files are not already showing, then download the Zip file named "Isometric.Analyzer[version # string].zip (do not download the Source Code.zip file). Extract all files to your desired destination folder. Open the destination folder and double click "Isometric Analyzer.exe" to start the program.
+
+**View/Use/Edit the Source Code**
+The primary parent folder contains the source code for the main Labview Project and Primary VI "Main.vi". If you're interested in seeing the source, you can fork/pull/download the entire repository to view/use/edit. You will need a full version of Labview 2016 or newer to use.
 
 ## How to use
 
@@ -26,8 +26,8 @@ You will need to first download and install Labview Runtime 2016 to be able to r
 	- Drag the green bar to slightly before the onset of the contraction.
 	- Drag the red bar to a point after the contraction where the force value is lower than the starting value. 
  ![Primary Graph Image](/Screenshots/PrimaryGraph.png)  
-6. Figure out the standing weight segment
-	- Click over to the "SW Segment" tab
+6. Verify the standing weight segment
+	- Click on the "SW Segment" tab
 	- The yellow cursor on this graph is the start of the SW segment that has the lowest variability. Eyeball it to verify it accurately represents a quiet standing period
 7. Check out the "Pull Start ID" tab to verify that the pull start is correctly identified.
 	- If not, verify that you have cursors correctly placed, and that the red button on the SW Segment tab isn't lit.
