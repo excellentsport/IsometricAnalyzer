@@ -25,8 +25,9 @@ A Labview program to analyze isometric squat and isometric mid thigh pull files 
 1. Start the program by clicking the right arrow in the upper left corner.
 2. Select a file to analyze (I recommend starting with one of the ones included in the "Examples" folder if you haven't used it before).
 3. Enter relevant data about your subject in the pop-up window, then hit "OK".
-![User input Popup](/Screenshots/UserPrompt.png)
+![User input Popup Image](/Screenshots/UserPrompt.png)
 4. Change any default analysis options if you need to (default is 1000ms period to determine standing weight, 5SD of standing weight as contraction onset threshold).
+![General settings Image](/Screenshots/GeneralSettings.png)
 5. On the primary "Force-Time Trace" graph:
 	- Drag the yellow cursor to just before the quiet standing period. This will search for a period after this cursor that has the lowest variability, and will use this period for the standing weight and SD value for contraction onset ID.
 	- Drag the green bar to slightly before the onset of the contraction.
