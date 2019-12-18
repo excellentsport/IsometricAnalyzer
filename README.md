@@ -39,7 +39,7 @@ A Labview program to analyze isometric squat and isometric mid thigh pull files 
 7. Check out the "Pull Start ID" tab to verify that the pull start is correctly identified.
         - If not, verify that you have cursors correctly placed, and that the red button on the SW Segment tab isn't lit.
 8. Verify on the "Intra-cursor Segment" graph on the "Intra-cursor" tab that the end of pull/push tab is at the same height as the automatically identified contraction onset (that it comes back down the the green horizontal line). If it isn't, then drag the red cursor to a later time point on the main "Force-time Trace" graph.   
-**Image for #8 showing an incorrect vs. correct segment?**
+![Early Cutoff example](/Screenshots/EarlyCutoff.png)
 8. Verify that all your entered data on the "Data Entry and Saving" tab is correct.
 9. Analyzed data from multiple trials and subjects can be saved into a single file. If you don't have a file to save all of this in yet, click the "Create Blank Save file"
 10. If you already have a file to save data in (i.e. you already created a save file using this program previously), then click "Choose New Save Target" to select this file. This will be pre-populated if you have already analyzed another file this session.
