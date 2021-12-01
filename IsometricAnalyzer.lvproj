@@ -140,8 +140,8 @@
 			<Item Name="Find window with lowest SD.vi" Type="VI" URL="../SubVIs/Find window with lowest SD.vi"/>
 			<Item Name="Force Analysis iso.vi" Type="VI" URL="../SubVIs/Force Analysis iso.vi"/>
 			<Item Name="Get Application Build Version.vi" Type="VI" URL="../SubVIs/Get Application Build Version.vi"/>
-			<Item Name="Get X Position of Cursors.vi" Type="VI" URL="../../Scrum Machine/SubVIs/Get X Position of Cursors.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Return X Position of Cursors iso.vi" Type="VI" URL="../SubVIs/Return X Position of Cursors iso.vi"/>
 			<Item Name="Save Array to file and-or select new target file iso.vi" Type="VI" URL="../SubVIs/Save Array to file and-or select new target file iso.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
