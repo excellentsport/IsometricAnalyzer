@@ -152,7 +152,6 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{FF637AAA-CACE-46FE-9275-3312446C243A}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{32F97CF6-55C3-4D56-ABDF-29B23C7B96C6}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{365213A0-D029-4FA9-BC99-2D61C966729B}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Main</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -162,9 +161,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{23985AEF-4A7F-4D7A-902A-DE789884CEED}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
-				<Property Name="Bld_version.minor" Type="Int">4</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Isometric Analyzer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Isometric Analyzer [VersionNumber]/Isometric Analyzer.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -177,7 +174,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Builds/Isometric Analyzer [VersionNumber]/Examples</Property>
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E291943B-E0D9-428C-8D3F-B0F0BA766380}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2C3A636E-A689-4AE3-A895-8CE107E25FC3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
