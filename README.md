@@ -71,10 +71,10 @@ I strongly recommend you check out the review we did in 2019 on the optimal meth
 [Comfort et al. (2019) Standardization and Methodological Considerations for the Isometric Midthigh Pull](https://journals.lww.com/nsca-scj/Citation/2019/04000/Standardization_and_Methodological_Considerations.10.aspx).
 
 
-## Authors
+## Author
 
 **George Beckham, PhD**  [GitHub](https://github.com/ExcellentSport), [Personal Website](https://www.georgebeckham.com)  
-**Eric Martin, PhD**
+
 
 
 ## License
