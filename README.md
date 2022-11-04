@@ -47,14 +47,14 @@ A Labview program to analyze isometric squat and isometric mid thigh pull files 
 
 ### How the Auto-Detection Thresholds Work
 
-There are a few different ways that you can automatically detect the "onset of contraction".  All methods (save manual identification), use a threshold value to identify the start. 
+There are a few different ways that you can automatically detect the "onset of contraction".  All methods (save manual identification), use a threshold value to identify the start.
 
 - Basically, as soon as the force value on the trace rises above the standing weight value by greater than the threshold value (i.e. standing weight + threshold value), that causes the rest of the calculations to start at that identified sample. This sample serves as the "onset of contraction".
 - If you wish to use manual identification, choose the "Manual Identification" option, and the start of the pull will be "forced" to start at the position of the green cursor.
 
 ### How standing weight is calculated
 
-- There are two options for identifying standing weight. 
+- There are two options for identifying standing weight.
 - First, you can choose the "SW Window at Cursor" option, which uses the user-defined window length starting at the position of the "Standing Weight" cursor. 
 - Second, you can use the "Find SW Window with Min SD" option, which searches forward from the "Standing Weight" cursor for the window with the lowest variability. This ensures you have selected a period where your subject was the most stable.
 - The samples within this identified period are then averaged to estimate standing weight, and the SD of the samples of this period is used for contraction onset identification (if you're using the 5SD method).
@@ -73,10 +73,10 @@ I strongly recommend you check out the review we did in 2019 on the optimal meth
 
 [Comfort et al. (2019) Standardization and Methodological Considerations for the Isometric Midthigh Pull](https://journals.lww.com/nsca-scj/Citation/2019/04000/Standardization_and_Methodological_Considerations.10.aspx).
 
-## Authors
+## Author
 
 **George Beckham, PhD**  [GitHub](https://github.com/ExcellentSport), [Personal Website](https://www.georgebeckham.com)  
-**Eric Martin, PhD**
+
 
 ## License
 
