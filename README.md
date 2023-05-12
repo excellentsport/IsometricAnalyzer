@@ -2,9 +2,9 @@
 
 A Labview program to analyze isometric squat and isometric mid thigh pull files from a force plate, although it can probably handle force-time data from any isometric test. Currently able to import and parse csv files with comma or tab separation. Is capable of handling data with a variety of sampling rates.
 
-![Screenshot of main screen](/Screenshots/WholeProgram.png)
+![Screenshot of main screen](Screenshots/WholeProgram.png)
 
-### Downloading and Running the Program
+## Downloading and Running the Program
 
 - If you don't have the the full version of Labview 2016 or newer installed you will need to first download and install Labview Runtime 2016 (32bit) to be able to run the executable. It can be found here:
 [Labview 2016 Runtime Engine](http://www.ni.com/download/labview-run-time-engine-2016/6066/en/).
@@ -12,7 +12,7 @@ A Labview program to analyze isometric squat and isometric mid thigh pull files 
 - Extract all files to your desired destination folder.
 - Open the destination folder and double click "Isometric Analyzer.exe" to start the program.
 
-### View/Use/Edit the Source Code
+## View/Use/Edit the Source Code
 
 - In order to work from source code, the full version of Labview must be installed (version 2016 or later). It will not work with just the runtime libraries.
 - You can download source code from the latest release using the directions above, or fork/clone the github repository. Any source code in the repo is being actively worked on, so it may not work as intended. I recommend starting with source code from the releases page.
@@ -24,42 +24,42 @@ A Labview program to analyze isometric squat and isometric mid thigh pull files 
 1. Start the program by clicking the right arrow in the upper left corner.
 2. Select a file to analyze (I recommend starting with one of the ones included in the "Examples" folder if you haven't used it before).
 3. Enter relevant data about your subject in the pop-up window, then hit "OK".  
-![User input Popup Image](/Screenshots/UserPrompt.png)
+![User input Popup Image](Screenshots/UserPrompt.png)
 4. Change any default analysis options if you need to (default is 1000ms period starting at location of "Standing Weight Cursor" to determine standing weight, 5SD of standing weight as contraction onset threshold, SW ID method is SW Window at cursor).  
-![General settings Image](/Screenshots/GeneralSettings.png)
+![General settings Image](Screenshots/GeneralSettings.png)
 5. On the primary "Force-Time Trace" graph:
 	- Drag the yellow cursor to just before data you wish to use as the quiet standing period. In the "Parameter Adjustment" tab, you can select "Find SW Window with Min SD" which will find the window of the length you designate with the lowest SD (i.e. least variability).
 	- Drag the green bar to slightly before the onset of the contraction.
 	- Drag the red bar to a point after the contraction where the force value is lower than the starting value.  
- ![Primary Graph Image](/Screenshots/PrimaryGraph.png)  
+ ![Primary Graph Image](Screenshots/PrimaryGraph.png)  
 6. Verify the standing weight segment
 	- Click on the "SW Segment" tab
 	- The yellow cursor on this graph is the start of the SW segment that has the lowest variability. Eyeball it to verify it accurately represents a quiet standing period
 7. Check out the "Pull Start ID" tab to verify that the pull start is correctly identified.
         - If not, verify that you have cursors correctly placed, and that the red button on the SW Segment tab isn't lit. If it is, this indicates that the quiet weighing period is highly variable, and pthis trial may not be a good one for use.
 8. Verify on the "Intra-cursor Segment" graph on the "Intra-cursor" tab that the end of pull/push tab is at the same height as the automatically identified contraction onset (that it comes back down the the green horizontal line). If it isn't, then drag the red cursor to a later time point on the main "Force-time Trace" graph.
-![Early Cutoff example](/Screenshots/EarlyCutoff.png)
+![Early Cutoff example](Screenshots/EarlyCutoff.png)
 8. Verify that all your entered data on the "Data Entry and Saving" tab is correct.
 9. Analyzed data from multiple trials and subjects can be saved into a single file. If you don't have a file to save all of this in yet, click the "Create Blank Save file"
 10. If you already have a file to save data in (i.e. you already created a save file using this program previously), then click "Choose New Save Target" to select this file. This will be pre-populated if you have already analyzed another file this session.
 11. Click the "Save results to Save Target" button to save all of the analyzed data to the save target you chose in the previous step.
 12. Click the "Load new file to analyze" button to select your next isometric trial to analyze, then head to step 3.
 
-### How the Auto-Detection Thresholds Work
+## How the Auto-Detection Thresholds Work
 
 There are a few different ways that you can automatically detect the "onset of contraction".  All methods (save manual identification), use a threshold value to identify the start.
 
 - Basically, as soon as the force value on the trace rises above the standing weight value by greater than the threshold value (i.e. standing weight + threshold value), that causes the rest of the calculations to start at that identified sample. This sample serves as the "onset of contraction".
 - If you wish to use manual identification, choose the "Manual Identification" option, and the start of the pull will be "forced" to start at the position of the green cursor.
 
-### How standing weight is calculated
+## How standing weight is calculated
 
 - There are two options for identifying standing weight.
 - First, you can choose the "SW Window at Cursor" option, which uses the user-defined window length starting at the position of the "Standing Weight" cursor. 
 - Second, you can use the "Find SW Window with Min SD" option, which searches forward from the "Standing Weight" cursor for the window with the lowest variability. This ensures you have selected a period where your subject was the most stable.
 - The samples within this identified period are then averaged to estimate standing weight, and the SD of the samples of this period is used for contraction onset identification (if you're using the 5SD method).
 
-### How to ensure that your trials will be accurately analyzed
+## How to ensure that your trials will be accurately analyzed
 
 The following instructions outline the basics of what you need to do in an isometric squat or isometric mid thigh pull for this program to analyze it correctly:
 
@@ -69,6 +69,7 @@ The following instructions outline the basics of what you need to do in an isome
 4. Subject should pull as "fast and as hard as possible" for 5-6 seconds, after which they should relax.
 
 ## A final note
+
 I strongly recommend you check out the review we did in 2019 on the optimal methods for using the isometric mid thigh pull. The recommendations we laid out in there can also be applied to the isometric squat, in my opinion.
 
 [Comfort et al. (2019) Standardization and Methodological Considerations for the Isometric Midthigh Pull](https://journals.lww.com/nsca-scj/Citation/2019/04000/Standardization_and_Methodological_Considerations.10.aspx).
@@ -76,7 +77,6 @@ I strongly recommend you check out the review we did in 2019 on the optimal meth
 ## Author
 
 **George Beckham, PhD**  [GitHub](https://github.com/ExcellentSport), [Personal Website](https://www.georgebeckham.com)  
-
 
 ## License
 
