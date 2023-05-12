@@ -17,6 +17,7 @@
 		<Item Name="Create Blank Save File.vi" Type="VI" URL="../SubVIs/Create Blank Save File.vi"/>
 		<Item Name="Identify Contraction Segment.vi" Type="VI" URL="../SubVIs/Identify Contraction Segment.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="README.pdf" Type="Document" URL="../README.pdf"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Build Exp Wvfrm (Cluster).vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Build Exp Wvfrm (Cluster).vi"/>
