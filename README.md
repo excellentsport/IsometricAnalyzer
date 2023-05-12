@@ -6,7 +6,7 @@ A Labview program to analyze isometric squat and isometric mid thigh pull files 
 
 ### Downloading and Running the Program
 
-- If you don't have the the full version of Labview 2016 or newer installed you will need to first download and install Labview Runtime 2016 to be able to run the executable. It can be found here:
+- If you don't have the the full version of Labview 2016 or newer installed you will need to first download and install Labview Runtime 2016 (32bit) to be able to run the executable. It can be found here:
 [Labview 2016 Runtime Engine](http://www.ni.com/download/labview-run-time-engine-2016/6066/en/).
 - The most recent version of the software can be found on the [Releases Page](https://github.com/excellentsport/IsometricAnalyzer/releases): scroll to the latest release (at the top), click the "Assets" collapsible menu if the files are not already showing, then download the Zip file named “Isometric.Analyzer[xx.yy.zz].zip" (do not download the Source Code.zip file).
 - Extract all files to your desired destination folder.
